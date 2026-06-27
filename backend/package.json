@@ -1,0 +1,19 @@
+{
+  "name": "weather-website-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fastify API for the weather monitoring workspace.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "fastify": "^5.4.0",
+    "zod": "^3.25.76"
+  }
+}
